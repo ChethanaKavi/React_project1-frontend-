@@ -1,0 +1,49 @@
+.team {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.team h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.team-image {
+    flex: 1;
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.team-info {
+    flex: 2;
+    text-align: left;
+}
+
+.team-info h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #28a745;
+}
+
+.team-info p {
+    font-size: 1.2em;
+    margin: 5px 0 0;
+    color: #666;
+}

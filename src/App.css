@@ -13,6 +13,8 @@
   }
 }
 
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,7 +34,32 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+[data-theme="light"] {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --nav-background-color: #f0f0f0;
+  --nav-text-color: #000000;
+}
+
+[data-theme="dark"] {
+  --background-color: #282c34;
+  --text-color: #ffffff;
+  --nav-background-color: #333333;
+  --nav-text-color: #ffffff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+nav {
+  background-color: var(--nav-background-color);
+  color: var(--nav-text-color);
 }
